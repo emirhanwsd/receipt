@@ -1,7 +1,7 @@
 const App = () => {
   return (
     <div className="h-full bg-gray-50 flex items-center justify-center sm:py-4">
-      <div className="w-screen sm:max-w-screen-md h-full bg-white px-16 pt-16 rounded-xl shadow-sm">
+      <div className="w-screen sm:max-w-screen-md h-full bg-white px-8 sm:px-16 pt-16 rounded-xl shadow-sm">
         <div className="flex flex-col sm:flex-row justify-between gap-y-8">
           <div className="space-y-12">
             <h4 className="text-2xl font-semibold uppercase">Brand</h4>
@@ -154,7 +154,7 @@ const App = () => {
           </div>
         </div>
 
-        <p className="max-w-md mx-auto text-xs text-center font-medium text-gray-400 mt-12">
+        <p className="max-w-md mx-auto text-xs text-center font-medium text-gray-400 mt-12 pb-8 sm:px-0">
           The invoice is to be paid by wire transfer only, unless agreed
           otherwise and must be paid before the date due specified above.
         </p>
